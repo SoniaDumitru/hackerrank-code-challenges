@@ -3,16 +3,16 @@
 
 function fibonacci(n) {
     if (n < 2){
-    return n
+    return n;
   }
-  return fibonacci(n - 1) + fibonacci(n - 2)
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 // same as:
   function fibonacci(n) {
-  let arr = [0, 1];
+  let array = [0, 1];
    for (let i = 2; i < n + 1; i++){
-     arr.push(arr[i - 2] + arr[i -1])
+     array.push(array[i - 2] + array[i - 1]);
    }
-  return arr[n]
+  return array[n];
 }
