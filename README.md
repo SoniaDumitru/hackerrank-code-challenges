@@ -1,2 +1,3 @@
 # hackerrank-challenges
-Repository for keeping track of  solved coding challenges from hackerrank.com
+Keeping track of  solved coding challenges from hackerrank.com
+
