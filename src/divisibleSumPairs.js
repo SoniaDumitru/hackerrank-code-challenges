@@ -5,6 +5,7 @@ let arr = [1,4,5,5]
 let n = 4;
 function divisibleSumPairs(n, k, arr) {
   let count = 0;
+  let sum = 0;
   for(let i=0; i<n; i++){
         for(let j=1;j<n;j++){
             if (i < j){
